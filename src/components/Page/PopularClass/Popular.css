@@ -1,0 +1,65 @@
+.courses {
+	margin-bottom: 5rem;
+}
+.courses h1 {
+	font-size: 2rem;
+	text-align: center;
+	margin-bottom: 1rem;
+}
+input::-webkit-search-cancel-button {
+	display: none;
+}
+.courses input {
+	font-size: 1.6rem;
+	width: 30%;
+	border-radius: 0.5rem;
+	padding: 0.5rem 1rem;
+	border: 1px solid #4b4b4b;
+}
+.courses {
+	margin-top: 5rem;
+}
+.course h4 a {
+	color: #000;
+}
+.courses_container {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 5rem;
+	padding-left: 220px;
+}
+.course {
+	background: var(--color-light);
+	text-align: center;
+	border: 1px solid transparent;
+	transition: var(--transition);
+	/* border-radius: 1rem; */
+	/* filter: saturate(0); */
+}
+.course:hover {
+	background: transparent;
+	border-color: var(--color-success);
+	box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.3);
+	z-index: 1;
+	transform: scale(1.1);
+	/* border-radius: 1rem; */
+	/* filter: none; */
+}
+/* .course img {
+  border-radius: 1rem;
+  filter: saturate(0);
+}
+.course img:hover {
+  filter: none;
+} */
+.course_info {
+	padding: 3rem;
+}
+.course_info p {
+	margin: 1.2rem 0 2rem;
+	font-size: 1rem;
+}
+.search_wrapper {
+	text-align: center;
+	margin-bottom: 4rem;
+}

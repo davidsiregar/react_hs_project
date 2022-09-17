@@ -1,0 +1,45 @@
+
+/* ------------------------NAVBAR-----------------------*/
+nav {
+	background: var(--color-);
+	width: 100vw; /* width akan ngambil keseluruhan width layar, apapun devicenya*/
+	height: 5rem;
+	/* position: fixed;courses */
+	top: 0;
+	z-index: 11; /* navbar akan selalu jadi paling atas, nilai besar semakin keatas, nilai kecil semakin kebawah*/
+}
+
+.nav_container {
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nav_menu {
+	display: flex;
+	align-items: center;
+	/* text-align: center; */
+	gap: 2rem;
+}
+
+.nav_menu a {
+	font-size: 1.2rem;
+	transition: var(--transition);
+	color: #111;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 8px;
+	border-radius: 5px;
+	letter-spacing: 0.5px;
+	transition: all 0.3s ease;
+}
+.nav_menu a:hover {
+	text-shadow: 8px 8px 15px rgba(7, 60, 222, 0.9);
+}
+.b {
+	color: green;
+	background: #fff;
+	border-radius: 5px;
+}
